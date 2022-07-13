@@ -4,7 +4,7 @@ This is an exercise to use a very simplistic bayesian model to determinate an [a
 
 ## Case Explanation 
 
-We simulate a dataset based in a simulated example where the costumers $ c \in C$ are exposed to a set of different channels $l \in CH$. this channel set in our example will be limited to `channels = [Instagram[R,P], TikTok[R], GoogleAds[P], Offline[P]]`. We denote the variable $X_{c,l}$ as the count of expositions of the costumer $c$ to the channel $l$ (we assume that all platforms have an evergreen campaign, therefore we only care about the channel). 
+We simulate a dataset based in a simulated example where the costumers $c \in C$ are exposed to a set of different channels $l \in CH$. this channel set in our example will be limited to `channels = [Instagram[R,P], TikTok[R], GoogleAds[P], Offline[P]]`. We denote the variable $X_{c,l}$ as the count of expositions of the costumer $c$ to the channel $l$ (we assume that all platforms have an evergreen campaign, therefore we only care about the channel). 
 
 We assume that the final purchase function will be given by: 
 
