@@ -10,7 +10,7 @@ We assume that the final purchase function will be given by:
 
 $$ IP(Y_{c,t}=1|c,X) = \theta_{c}(X_{c})*\phi_{c}(X_{c})$$
 
-Where $Y_{c,t}$ its a variable that indicates if the client $c$ has made a purchase in the week $t$. We will model that purchase probability as the product of the visit probability $\theta_{c}(X_{c})$ and the conversion probability $\phi_{c}(X_{c})$ we assume that both functions have a [structural form](https://en.wikipedia.org/wiki/Logistic_regression) like the following:
+Where $Y_{c,t}$ its a variable that indicates if the client $c$ has made a purchase in the week $t$. We will model that purchase probability as the product of the visit probability $\theta_{c}(X_{c})$ and the conversion probability $\phi_{c}(X_{c})$ we assume that both functions have a structural form, particularly a [logistic function](https://en.wikipedia.org/wiki/Logistic_regression) like the following:
 
 $$  \theta_{c}(X_{c}) = \frac{1}{1+\exp(w_{c} + \sum_{l \in CH} w_{c,l}X_{c,l})}$$
 
