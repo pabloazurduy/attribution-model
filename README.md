@@ -66,3 +66,10 @@ flowchart LR
     classDef OptionalBox stroke-width:1px,color:#fff,stroke-dasharray: 5 5;
     class C1,C2,sv OptionalBox;
 ```
+
+## Other ideas
+
+- NPI or price gap with unknown price distributions, maybe client NPI
+- Driver DRM: maybe using some unkowns as the $SH~Driver(\mu)$ where $\mu: incentives$
+- NEI using bayesian inference
+
